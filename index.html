@@ -11,9 +11,12 @@
             theme: {
                 extend: {
                     colors: {
-                        aveiroGreen: '#7eb344',
-                        aveiroDark: '#4a4a49',
+                        aveiroGreen: '#1D5B0B',
+                        aveiroDark: '#473D16',
                         aveiroLight: '#f4f7f0',
+                        aveiroYellow: '#BEC358',
+                        aveiroBrown: '#716258',
+                        aveiroOlive: '#868735',
                     }
                 }
             }
@@ -24,10 +27,10 @@
         .hero-gradient { background: linear-gradient(135deg, #f4f7f0 0%, #ffffff 100%); }
     </style>
 </head>
-<body class="text-aveiroDark bg-white font-sans">
+<body class="text-black bg-white font-sans">
 
     <!-- Navegação com Logo em Dobro -->
-    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-aveiroGreen/10">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-aveiroBrown/10">
         <div class="max-w-7xl mx-auto px-6 h-32 flex items-center justify-between">
             
             <!-- Esquerda: Logo (Aumentado para o dobro: h-24) -->
@@ -64,7 +67,7 @@
                 <h1 class="text-5xl md:text-7xl font-black leading-[1.1] mb-8">
                     Aveiro mais <span class="text-aveiroGreen italic">verde</span>, árvore a árvore.
                 </h1>
-                <p class="text-lg text-gray-600 mb-10 leading-relaxed max-w-lg">
+                <p class="text-lg text-aveiroBrown mb-10 leading-relaxed max-w-lg">
                     Somos um grupo de cidadãos ativos que acreditamos na importância de reflorestar as áreas urbanas de Aveiro. Queremos contribuir com ideias e ações para uma cidade mais fresca, mais viva e mais saudável.
                 </p>
                 <div class="flex flex-wrap gap-5">
@@ -84,7 +87,7 @@
         <div class="max-w-3xl mx-auto text-center">
             <span class="text-aveiroGreen font-bold uppercase tracking-widest text-sm">O nosso propósito</span>
             <h2 class="text-4xl font-bold mt-4 mb-10">Transformar o betão em pulmão</h2>
-            <p class="text-xl leading-relaxed text-gray-600 italic">
+            <p class="text-xl leading-relaxed text-aveiroBrown italic">
                 "O Movimento Aveiro + Verde não é apenas sobre árvores; é sobre a qualidade do ar que os nossos filhos respiram e o futuro da cidade que amamos."
             </p>
         </div>
@@ -98,21 +101,21 @@
                         <i class="fas fa-seedling"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Plantação Ativa</h3>
-                    <p class="text-gray-500 leading-relaxed">Queremos plantar espécies nativas em locais onde a plantação é possível e adequada, sempre com atenção ao contexto.</p>
+                    <p class="text-aveiroBrown leading-relaxed">Queremos plantar espécies nativas em locais onde a plantação é possível e adequada, sempre com atenção ao contexto.</p>
                 </div>
                 <div class="group bg-white p-12 rounded-[32px] shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100">
                     <div class="w-16 h-16 bg-aveiroGreen/10 rounded-2xl flex items-center justify-center text-aveiroGreen text-2xl mb-8 group-hover:bg-aveiroGreen group-hover:text-white transition-colors">
                         <i class="fas fa-map-marked-alt"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Mapeamento Urbano</h3>
-                    <p class="text-gray-500 leading-relaxed">Mapeamos as zonas da cidade com maior carência de sombras e biodiversidade para intervenção prioritária.</p>
+                    <p class="text-aveiroBrown leading-relaxed">Mapeamos as zonas da cidade com maior carência de sombras e biodiversidade para intervenção prioritária.</p>
                 </div>
                 <div class="group bg-white p-12 rounded-[32px] shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100">
                     <div class="w-16 h-16 bg-aveiroGreen/10 rounded-2xl flex items-center justify-center text-aveiroGreen text-2xl mb-8 group-hover:bg-aveiroGreen group-hover:text-white transition-colors">
                         <i class="fas fa-fist-raised"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Advocacia Verde</h3>
-                    <p class="text-gray-500 leading-relaxed">Queremos colaborar com as entidades locais e garantir que o planeamento urbano prioriza o ambiente.</p>
+                    <p class="text-aveiroBrown leading-relaxed">Queremos colaborar com as entidades locais e garantir que o planeamento urbano prioriza o ambiente.</p>
                 </div>
             </div>
         </div>
@@ -121,20 +124,23 @@
     <footer id="participar" class="bg-aveiroDark text-white py-24 px-6">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
             <div>
-                <h2 class="text-5xl font-bold mb-8 text-white">Pronto para <br><span class="text-aveiroGreen">fazer a diferença?</span></h2>
+                <h2 class="text-5xl font-bold mb-8 text-white">Pronto para <br><span class="text-aveiroYellow">fazer a diferença?</span></h2>
                 <div class="flex gap-6 text-2xl">
-                    <a href="#" class="hover:text-aveiroGreen transition"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="hover:text-aveiroGreen transition"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="hover:text-aveiroGreen transition"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="hover:text-aveiroYellow transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-aveiroYellow transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-aveiroYellow transition"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
             <div class="bg-white/5 p-10 rounded-[32px] border border-white/10 text-center">
-                <a href="mailto:movimento@aveiromaisverde.pt" class="block w-full bg-aveiroGreen text-white py-4 rounded-xl font-bold hover:bg-white hover:text-aveiroDark transition-colors">
+                <a href="mailto:movimento@aveiromaisverde.pt" class="block w-full bg-aveiroGreen text-white py-4 rounded-xl font-bold hover:bg-aveiroYellow hover:text-aveiroDark transition-colors">
                     Falar com o Movimento
                 </a>
             </div>
         </div>
     </footer>
+
+</body>
+</html>
 
 </body>
 </html>
